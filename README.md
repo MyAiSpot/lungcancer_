@@ -2,7 +2,7 @@
 # Lung Cancer Detection with Deep Learning [🔝](#top)
 
 This repository accompanies the paper:
-**"AI Medical Diagnosis in Lung Cancer: Issues of Bias and Fairness"**,
+**"Bias in Developing AI Medical Diagnosis: Experimenting the Impact of sequential CT Scan Slices on Data Leakage in Lung Cancer"**,
 
 We provide a reproducible Deep Learning (DL) experimental pipelines for lung cancer detection using DL architectures. This includes custom data preprocessing strategies, data split considerations, multiple architecture designs, and rigorous model evaluation setups.
 
@@ -56,6 +56,7 @@ The repository follows a modular folder structure:
 │   └── {task ID}/       # Task-focused goal
 │       └── {exp ID}/    # Experiment-specific steps to reach task goal (.ipynb or .py)
 │           └── (Optional: quick viz, other)
+├── report/              # Experimental Track results analysis for next run improvement
 ├── results/             # Stores all experiment tracking outputs
 ├── env files            # Dockerfile, docker-compose.yml, requirements.txt
 ├── README.md            # Project documentation
